@@ -1,0 +1,44 @@
+header:
+  - titles:
+      # @start locale config
+      en      : &EN       About
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  关于
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  關於
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+      ko      : &KO       소개
+      ko-KR   : *KO
+      fr      : &FR       À propos
+      fr-BE   : *FR
+      fr-CA   : *FR
+      fr-CH   : *FR
+      fr-FR   : *FR
+      fr-LU   : *FR
+      tr      : &TR       Hakkında
+      # @end locale config
+    url: /about.html
+  
+  - title: GitHub
+    url: https://github.com/ZhengqiaoWang/ArrowDocsZhCN
+
+navigator:
+  - title:      主页
+    children:
+      - title:   主页
+        url:    /
+  - title:      安装说明
+    children:
+      - title:  C++
+        url:    arrow_installation#c
+  - title:      CodeBook
+    url:        arrow_cpp_codebook
+    children:
+      - title:  C++
+        url:    arrow_cpp_codebook#使用c接口
